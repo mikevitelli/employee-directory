@@ -1,0 +1,2 @@
+fancy table
+fewest amount of components
