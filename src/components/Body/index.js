@@ -1,17 +1,26 @@
 import React from "react";
 
 const Body = ({ users }) => {
-  const [developerState];
+  // const [developerState];
   return (
     // mapped user array in rows
-
-    <div>
+    // example files
+    <tbody id="myTable">
       <tr>
-        <td>Anja</td>
-        <td>Ravendale</td>
-        <td>a_r@test.com</td>
+        <td>An Employee's Name</td>
+        <td>An Employee's Image</td>
+        <td>An Employee's Email</td>
+        <td>An Employee's Phone</td>
+        <td>An Employee's DOB</td>
       </tr>
-    </div>
+      <tr>
+        <td>Another Employee's Name</td>
+        <td>Another Employee's Image</td>
+        <td>Another Employee's Email</td>
+        <td>Another Employee's Phone</td>
+        <td>Another Employee's DOB</td>
+      </tr>
+    </tbody>
   );
 };
 
