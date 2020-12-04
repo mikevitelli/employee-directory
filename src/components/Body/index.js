@@ -5,7 +5,13 @@ const Body = ({ users }) => {
   return (
     // mapped user array in rows
 
-    <div></div>
+    <div>
+      <tr>
+        <td>Anja</td>
+        <td>Ravendale</td>
+        <td>a_r@test.com</td>
+      </tr>
+    </div>
   );
 };
 
