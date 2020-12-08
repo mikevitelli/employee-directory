@@ -1,4 +1,4 @@
-import React, { Component, setState } from "react";
+import React, { Component } from "react";
 import Search from "../Search/index.js";
 // import TableBody from "../TableBody/index.js";
 import Table from "../Table/index.js";
@@ -21,11 +21,11 @@ export default class Main extends Component {
   // handle seach change function
   handleSort = (heading) => {
     if (this.state.order === "descend") {
-      setState({
+      this.setState({
         order: "ascend",
       });
     } else {
-      setState({
+      this.setState({
         order: "descend",
       });
     }
@@ -56,7 +56,7 @@ export default class Main extends Component {
 
     const sortedUsers = this.state.filteredUsers.sort(compareFunction);
 
-    setState({
+    this.setState({
       filteredUsers: sortedUsers,
     });
   };
