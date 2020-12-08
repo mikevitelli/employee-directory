@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
+import Main, { handleSearchChange } from "../../components/Main";
 
-const Search = () => {
+const Search = (props) => {
   return (
     <div className="row">
       <div className="col">
@@ -11,13 +12,9 @@ const Search = () => {
             type="text"
             placeholder="Search"
             aria-label="Search"
-            // onChange={(event) => context.handleSearchChange(event)}
+            onChange={(event) => props.handleSearchChange(event)}
           />
 
-          <br />
-          <button type="button" className="btn btn-dark">
-            ~ I'm Feeling Lucky ~
-          </button>
           <br />
         </div>
       </div>
