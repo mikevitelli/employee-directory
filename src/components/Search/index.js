@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import Main, { handleSearchChange } from "../../components/Main";
 
 const Search = (props) => {
   return (
