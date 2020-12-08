@@ -1,17 +1,18 @@
 import React from "react";
-import Main from "../Main";
-import Search from "../Search";
+// import Search from "../Search";
+import "./style.css";
 
 const Header = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="header">
+        <div className="header col">
           <h1>Employee Rolodex</h1>
-          <Search></Search>
-          <Main></Main>
         </div>
       </div>
+      {/* <br />
+      <Search />
+      <br /> */}
     </div>
   );
 };

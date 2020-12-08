@@ -1,13 +1,6 @@
-import React, { Children } from "react";
-import Header from "../Header/index";
+import React from "react";
 
-const Wrapper = ({ children }) => {
-  return (
-    <div className="wrapper">
-      {children}
-      {/* <Header></Header>; */}
-    </div>
-  );
-};
-
+function Wrapper({ children }) {
+  return <div className="wrapper">{children}</div>;
+}
 export default Wrapper;

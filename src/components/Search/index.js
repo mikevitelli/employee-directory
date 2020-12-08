@@ -1,26 +1,25 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./style.css";
-import DirectoryContext from "../../utils/DirectoryContext";
 
 const Search = () => {
-  const context = useContext(DirectoryContext);
-
   return (
     <div className="row">
-      <br />
-      <div className="md-form mt-0 col">
-        <input
-          className="form-control"
-          type="text"
-          placeholder="Search"
-          aria-label="Search"
-          onChange={(event) => context.handleSearchChange(event)}
-        />
-        {/* <button type="button" class="btn btn-dark">
-          Search
-        </button> */}
+      <div className="col">
+        <div className="md-form mt-0">
+          <input
+            className="form-control"
+            type="text"
+            placeholder="Search"
+            aria-label="Search"
+            // onChange={(event) => context.handleSearchChange(event)}
+          />
 
-        <br />
+          <br />
+          <button type="button" className="btn btn-dark">
+            ~ I'm Feeling Lucky ~
+          </button>
+          <br />
+        </div>
       </div>
     </div>
   );
