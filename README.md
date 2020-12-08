@@ -21,6 +21,8 @@ To install application locally on your machine, you must first clone the reposit
 
 Click <a href="https://immense-bastion-71191.herokuapp.com/">here</a> to visit the deployed application!
 
+To search for a specific employee, just simply search their name in the input field. To sort employees by thier name, just click on the 'name' column on the table.
+
 ## License
 
 MIT
