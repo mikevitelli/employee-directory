@@ -1,5 +1,7 @@
 # Employee Directory
 
+
+
 ## Overview
 
 This is an employee directory created with React. This application fetches randomly created user profiles and prints them into a user friendly UI. You are able to search for employees and also sort them alphabetically by their name.
